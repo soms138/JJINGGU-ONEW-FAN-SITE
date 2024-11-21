@@ -1,0 +1,211 @@
+body, html {
+    scroll-behavior: smooth;
+}
+
+/* Firefox */
+html {scrollbar-width: 10px; height: 10px; scrollbar-color: #9FC1E4 #f1f1f1;}
+/* Opera */
+html::-o-scrollbar {width: 10px; height: 10px;}/*스크롤바 크기*/
+html::-o-scrollbar-thumb {background-color: #9FC1E4; border-radius: 5px;}/*스크롤 드래그바*/
+html::-o-scrollbar-thumb:hover {background-color: #555;}
+/* Chrome, Safari, Edge 등 웹킷 기반 브라우저 */
+::-webkit-scrollbar {width: 10px; height: 10px;}/*스크롤바 크기*/
+::-webkit-scrollbar-track {box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);}/*스크롤바 배경*/
+::-webkit-scrollbar-thumb {background-color: #9FC1E4; border-radius: 5px;}/*스크롤 드래그바*/
+::-webkit-scrollbar-thumb:hover {background-color: #555;}
+
+header, footer {
+    max-width: 500px;
+    /* min-width: 320px; */
+    margin: 0 auto;
+}
+
+/* left right */
+.leftBox, .rightBox {
+    position: fixed;
+    width: calc((100% - 500px) / 2);
+    height: 100vh;
+    top: 0;
+    z-index: 990;
+}
+.leftBox {
+    background: #fff no-repeat top right / cover;
+    right: calc(50% + 250px);
+    left: 0;
+}
+.rightBox {
+    background: #fff no-repeat top left / cover;
+    left: calc(50% + 250px);
+    right: 0;
+}
+
+/* popup */
+#popup {
+    width: 45px; height: 45px;
+    position: fixed;
+    bottom: 20px; right: 20px;
+    z-index: 800;
+}
+#popup a {}
+#popup a img {width: 100%;}
+
+/* header */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 20px;
+    z-index: 800;
+}
+header .header_t {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_t h1 {
+    width: 146px;
+    height: 30px;
+    z-index: 700;
+}
+header .header_t h1 a {
+    text-indent: -9999px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/logo/logo_jw1.svg);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+header .header_t .m_nav {
+    width: 30px; height: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    z-index: 900;
+}
+header .header_t .m_nav span {
+    width: 100%; height: 3px;
+    border-radius: 1.5px;
+    background: #fff;
+    /* transition: all 0.3s; */
+}
+header .header_t .m_nav span:nth-child(1) {}
+header .header_t .m_nav span:nth-child(2) {}
+header .header_t .m_nav span:nth-child(3) {}
+header .nav_open {
+    background: linear-gradient(115deg, rgba(159,193,228,0.85) 0%, rgba(149,211,206,1) 100%);
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    padding: 0 20px;
+    height: 100vh;
+    z-index: 650;
+    transform: translateX(100%);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+header .nav_open .nav_wrap {width: 100%;}
+header .nav_open .nav_wrap li:nth-child(1) {
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav_open .nav_wrap li img {
+    width: 30px;
+    height: 30px;
+}
+header .nav_open .nav_wrap li .close {
+    width: 30px; height: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    z-index: 900;
+    cursor: pointer;
+}
+header .nav_open .nav_wrap li .close span {
+    width: 100%; height: 3px;
+    border-radius: 1.5px;
+    background: #fff;
+}
+header .nav_open .nav_wrap li .close span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+header .nav_open .nav_wrap li .close span:nth-child(2) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+header .nav_open .nav_wrap li a {
+    display: block;
+    padding: 15px 0;
+    font-size: 1.875rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.07rem;
+}
+header .sns {
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+header .sns a {
+    position: relative;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+header .sns a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(141, 201, 207,0.45);
+    /* background: rgba(159, 193, 228, 0.5); */
+    filter: brightness(112%) saturate(100%) sepia(10%); 
+}
+header .sns a img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 900;
+}
+
+/* footer */
+footer {padding: 30px 20px;}
+footer .sns {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+footer .sns a {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+footer .sns a:nth-child(1) {background-image: url(../images/logo/logo_fromm_b.png);}
+footer .sns a:nth-child(2) {background-image: url(../images/logo/logo_youtube_b.png);}
+footer .sns a:nth-child(3) {background-image: url(../images/logo/logo_instagram_b.png);}
+footer .sns a:nth-child(4) {background-image: url(../images/logo/logo_x_b.png);}
+footer .sns a:nth-child(5) {background-image: url(../images/logo/logo_tiktok_b.png); margin-right: 0;}
+footer p {color: #aaa; text-align: center;}
