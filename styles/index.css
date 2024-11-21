@@ -4,6 +4,8 @@ main {
     position: relative;
 }
 main .section {
+    opacity: 0;
+    transform: translateY(-5%);
     max-width: 500px;
     width: 100%;
     margin: 0 auto 35px;
@@ -31,6 +33,8 @@ main #album, #play_list h2, #play_list .tab_title, .shorts_wrap {padding: 0 0 0 
 
 /* 1. home */
 main .home {
+    opacity: 1;
+    transform: translateY(0%);
     position: relative;
     max-width: 100vw;
     height: 100vh;

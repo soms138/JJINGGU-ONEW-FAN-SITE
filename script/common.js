@@ -4,31 +4,12 @@ const header = document.querySelector('header')
 const logo = document.querySelector('.header_t h1 a')
 const close = document.querySelector('.nav_wrap li .close')
 const navBtn = document.querySelectorAll('.nav_wrap li > a')
+const video = document.querySelector('#mv_slide video')
 const album = document.querySelector('#album')
-const body = document.querySelector('body')
+const body = document.querySelector('body,html')
+const section = document.querySelectorAll('.section')
 
 let boolean = true
-
-// $('#fullpage').fullpage({
-//     autoScrolling:true,
-//     scrillHorizontally:true,
-//     onLeave: function(origin, destination, direction, trigger){
-//         if(destination>=3){
-//             console.log('true')
-//             header.style.backgroundColor = 'rgba(255,255,255,0.9)'
-//             logo.style.backgroundImage = 'url(../images/logo/logo_jg1.svg)'
-//             menuBtn.children[0].style.backgroundColor = 'rgba(159, 193, 228,1)'
-//             menuBtn.children[1].style.backgroundColor = 'rgba(159, 193, 228,1)'
-//             menuBtn.children[2].style.backgroundColor = 'rgba(159, 193, 228,1)'
-//         }else {
-//             header.style.background = 'none'
-//             logo.style.backgroundImage = 'url(../images/logo/logo_jw1.svg)'
-//             menuBtn.children[0].style.backgroundColor = 'rgba(255, 255, 255,1)'
-//             menuBtn.children[1].style.backgroundColor = 'rgba(255, 255, 255,1)'
-//             menuBtn.children[2].style.backgroundColor = 'rgba(255, 255, 255,1)'
-//         }
-//     }    
-// })
 
 header.style.transition = 'all 0.3s linear'
 window.addEventListener('scroll',function(){
@@ -41,6 +22,7 @@ window.addEventListener('scroll',function(){
         menuBtn.children[0].style.backgroundColor = 'rgba(159, 193, 228,1)'
         menuBtn.children[1].style.backgroundColor = 'rgba(159, 193, 228,1)'
         menuBtn.children[2].style.backgroundColor = 'rgba(159, 193, 228,1)'
+        video.muted = true;  //음소거
     }else{
         // for(let i of header){i.style.backgroundColor = 'none'}
         // for(let i of logo){i.style.backgroundImage = 'url(../images/logo/logo_jw1.svg)'}
@@ -49,8 +31,27 @@ window.addEventListener('scroll',function(){
         menuBtn.children[0].style.backgroundColor = 'rgba(255, 255, 255,1)'
         menuBtn.children[1].style.backgroundColor = 'rgba(255, 255, 255,1)'
         menuBtn.children[2].style.backgroundColor = 'rgba(255, 255, 255,1)'
+        video.muted = false;  //음소거
     }
 })
+
+function section_event(a){
+    section[a].style.transition = 'all 0.3s linear'
+    window.addEventListener('scroll',function(){
+        if(window.pageYOffset > section[a].offsetTop-400){
+            section[a].style.opacity = '1'
+            section[a].style.transform = 'translateY(0%)'
+        }else{
+            section[a].style.opacity = '0'
+            section[a].style.transform = 'translateY(10%)'
+        }
+    })
+}
+section_event(1)
+section_event(2)
+section_event(3)
+section_event(4)
+
 
 menu.style.transition = 'all 1s ease';
 menuBtn.addEventListener('click',function(e){
