@@ -1401,270 +1401,270 @@ const play_slide = new Swiper('#play_slide',{
 //     });
 // })
 
-function audio1(a){
-    lovelikeoxygen[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio1(0)
-audio1(1)
-audio1(2)
+// function audio1(a){
+//     lovelikeoxygen[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio1(0)
+// audio1(1)
+// audio1(2)
 
-view.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// view.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio3(a){
-    standbyme[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio3(0)
-audio3(1)
-audio3(2)
-audio3(3)
+// function audio3(a){
+//     standbyme[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio3(0)
+// audio3(1)
+// audio3(2)
+// audio3(3)
 
-mindwarning.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// mindwarning.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio5(a){
-    starrynight[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio5(0)
-audio5(1)
+// function audio5(a){
+//     starrynight[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio5(0)
+// audio5(1)
 
-yourscent.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// yourscent.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-underthestarlight.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// underthestarlight.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio8(a){
-    sign[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio8(0)
-audio8(1)
+// function audio8(a){
+//     sign[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio8(0)
+// audio8(1)
 
-illusion.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// illusion.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio10(a){
-    shineonyou[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio10(0)
-audio10(1)
+// function audio10(a){
+//     shineonyou[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio10(0)
+// audio10(1)
 
-timepiece.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// timepiece.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio12(a){
-    dice[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio12(0)
-audio12(1)
-audio12(2)
-audio12(3)
-audio12(4)
+// function audio12(a){
+//     dice[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio12(0)
+// audio12(1)
+// audio12(2)
+// audio12(3)
+// audio12(4)
 
-function audio13(a){
-    sunshine[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio13(0)
-audio13(1)
+// function audio13(a){
+//     sunshine[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio13(0)
+// audio13(1)
 
-function audio14(a){
-    ontheway[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio14(0)
-audio14(1)
-audio14(2)
-audio14(3)
+// function audio14(a){
+//     ontheway[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio14(0)
+// audio14(1)
+// audio14(2)
+// audio14(3)
 
-lovephobia.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// lovephobia.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-yeowoobi.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// yeowoobi.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio17(a){
-    inthewhale[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio17(0)
-audio17(1)
+// function audio17(a){
+//     inthewhale[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio17(0)
+// audio17(1)
 
-function audio18(a){
-    circle[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio18(0)
-audio18(1)
-audio18(2)
-audio18(3)
-audio18(4)
+// function audio18(a){
+//     circle[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio18(0)
+// audio18(1)
+// audio18(2)
+// audio18(3)
+// audio18(4)
 
-function audio19(a){
-    cough[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio19(0)
-audio19(1)
+// function audio19(a){
+//     cough[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio19(0)
+// audio19(1)
 
-rainonme.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// rainonme.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio21(a){
-    caramel[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio21(0)
-audio21(1)
-audio21(2)
+// function audio21(a){
+//     caramel[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio21(0)
+// audio21(1)
+// audio21(2)
 
-function audio22(a){
-    anywhere[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio22(0)
-audio22(1)
+// function audio22(a){
+//     anywhere[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio22(0)
+// audio22(1)
 
-function audio23(a){
-    paradise[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio23(0)
-audio23(1)
+// function audio23(a){
+//     paradise[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio23(0)
+// audio23(1)
 
-function audio24(a){
-    expectations[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio24(0)
-audio24(1)
+// function audio24(a){
+//     expectations[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio24(0)
+// audio24(1)
 
-function audio25(a){
-    noparachute[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio25(0)
-audio25(1)
-audio25(2)
-audio25(3)
+// function audio25(a){
+//     noparachute[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio25(0)
+// audio25(1)
+// audio25(2)
+// audio25(3)
 
-function audio26(a){
-    always[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio26(0)
-audio26(1)
-audio26(2)
+// function audio26(a){
+//     always[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio26(0)
+// audio26(1)
+// audio26(2)
 
-uroco.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// uroco.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-beauty.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// beauty.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio29(a){
-    beatdrum[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio29(0)
-audio29(1)
+// function audio29(a){
+//     beatdrum[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio29(0)
+// audio29(1)
 
-function audio30(a){
-    hola[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio30(0)
-audio30(1)
-audio30(2)
+// function audio30(a){
+//     hola[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio30(0)
+// audio30(1)
+// audio30(2)
 
-function audio31(a){
-    maestro[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio31(0)
-audio31(1)
+// function audio31(a){
+//     maestro[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio31(0)
+// audio31(1)
 
-shapeofmyheart.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// shapeofmyheart.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-focus.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// focus.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-function audio34(a){
-    allday[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio34(0)
-audio34(1)
-audio34(2)
-audio34(3)
-audio34(4)
+// function audio34(a){
+//     allday[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio34(0)
+// audio34(1)
+// audio34(2)
+// audio34(3)
+// audio34(4)
 
-function audio35(a){
-    asitwas[a].addEventListener("click",function(e){
-        e.preventDefault()
-    })
-}
-audio35(0)
-audio35(1)
-audio35(2)
+// function audio35(a){
+//     asitwas[a].addEventListener("click",function(e){
+//         e.preventDefault()
+//     })
+// }
+// audio35(0)
+// audio35(1)
+// audio35(2)
 
-sung.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// sung.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-rainyblue.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// rainyblue.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-lielielie.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// lielielie.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-bibi.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// bibi.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
 
-iu.addEventListener("click",function(e){
-    e.preventDefault()
-})
+// iu.addEventListener("click",function(e){
+//     e.preventDefault()
+// })
