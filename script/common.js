@@ -38,7 +38,7 @@ window.addEventListener('scroll',function(){
 function section_event(a){
     section[a].style.transition = 'all 0.3s linear'
     window.addEventListener('scroll',function(){
-        if(window.pageYOffset > section[a].offsetTop-400){
+        if(window.pageYOffset > section[a].offsetTop-600){
             section[a].style.opacity = '1'
             section[a].style.transform = 'translateY(0%)'
         }else{
