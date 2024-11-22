@@ -4,6 +4,11 @@
     font-family:'pretendard'; /* 글꼴명 지정 */
     src:url(../fonts/PretendardVariable.ttf); /* 글꼴경로 지정 */
 }
+@font-face {
+    font-family:'nunito'; /* 글꼴명 지정 */
+    src:url(../fonts/NunitoVariable.ttf); /* 글꼴경로 지정 */
+}
+
 
 /* reset.css */
 html,body, /*구조태그*/

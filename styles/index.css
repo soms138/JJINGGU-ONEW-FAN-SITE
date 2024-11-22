@@ -13,8 +13,9 @@ main .section {
 
 /* 상단 태그 모음 */
 #album h2, .official_t h2, .shorts_t h2, #play_list h2 {
+    font-family:'nunito';
     color: #333;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.75rem;
     letter-spacing: -0.07rem;
 }

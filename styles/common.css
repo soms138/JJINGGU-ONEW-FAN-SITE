@@ -141,11 +141,12 @@ header .nav_open .nav_wrap li .close span:nth-child(2) {
     transform: translateY(-11px) rotate(-45deg);
 }
 header .nav_open .nav_wrap li a {
+    font-family:'nunito';
     display: block;
     padding: 15px 0;
     font-size: 1.875rem;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.07rem;
 }
 header .sns {
