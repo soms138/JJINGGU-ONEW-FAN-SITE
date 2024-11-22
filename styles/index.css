@@ -18,6 +18,8 @@ main .section {
     font-weight: 800;
     font-size: 1.75rem;
     letter-spacing: -0.07rem;
+    transform: scaleX(0.95);
+    transform-origin: bottom left;
 }
 
 #album h2, #play_list h2 {margin-bottom: 15px;}
