@@ -13,10 +13,7 @@ let boolean = true
 
 header.style.transition = 'all 0.3s linear'
 window.addEventListener('scroll',function(){
-// console.log(window.pageYOffset)
     if(window.pageYOffset > album.offsetTop-100){
-        // for(let i of header){i.style.backgroundColor = 'rgba(255,255,255,0.85)'}
-        // for(let i of logo){i.style.backgroundImage = 'url(../images/logo/logo_jg1.svg)'}
         header.style.backgroundColor = 'rgba(255,255,255,0.9)'
         logo.style.backgroundImage = 'url(../images/logo/logo_jg1.svg)'
         menuBtn.children[0].style.backgroundColor = 'rgba(159, 193, 228,1)'
@@ -24,8 +21,6 @@ window.addEventListener('scroll',function(){
         menuBtn.children[2].style.backgroundColor = 'rgba(159, 193, 228,1)'
         video.muted = true;  //음소거
     }else{
-        // for(let i of header){i.style.backgroundColor = 'none'}
-        // for(let i of logo){i.style.backgroundImage = 'url(../images/logo/logo_jw1.svg)'}
         header.style.backgroundColor = 'rgba(255,255,255,0)'
         logo.style.backgroundImage = 'url(../images/logo/logo_jw1.svg)'
         menuBtn.children[0].style.backgroundColor = 'rgba(255, 255, 255,1)'
@@ -59,22 +54,10 @@ menuBtn.addEventListener('click',function(e){
     this.style.display = 'none'
     logo.style.display = 'none'
     menu.style.transform = 'translateX(0)';
-    // 스크롤 고정
-    // $('body').on('scroll touchmove mousewheel', function(event) {
-    //     event.preventDefault();
-    //     event.stopPropagation();
-    //     return false;
-    // });
 })
 close.addEventListener('click',function(e){
     e.preventDefault()
     menu.style.transform = 'translateX(100%)';
     menuBtn.style.display = 'flex'
     logo.style.display = 'inline-block'
-    // 스크롤 고정 해제
-    // $('body').off('scroll touchmove mousewheel');
 })
-// navBtn.addEventListener('click',function(e){
-//     e.preventDefault()
-//     menu.style.transform = 'translateX(100%)';
-// })
