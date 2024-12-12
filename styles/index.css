@@ -134,8 +134,8 @@ main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a {
 }
 main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a p {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 12px;
+    right: 12px;
     width: 13px;
     height: auto;
 }
@@ -144,8 +144,8 @@ main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a p img {
 }
 main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a .tit {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 12px;
+    left: 12px;
     display: flex;
     flex-flow: column nowrap;
 }
