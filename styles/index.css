@@ -116,14 +116,15 @@ main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide::after {
     background-color: rgb(34, 34, 34, 30%);
     border-radius: 5px;
 }
-main #album .album_wrap #album_slide .swiper-wrapper .slide1 {background-image: url(../images/album/flow.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide2 {background-image: url(../images/album/knockonmydoor.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide3 {background-image: url(../images/album/inspiration.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide4 {background-image: url(../images/album/circle.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide5 {background-image: url(../images/album/dancewholeday.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide6 {background-image: url(../images/album/lifegoeson.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide7 {background-image: url(../images/album/dice.jpg);}
-main #album .album_wrap #album_slide .swiper-wrapper .slide8 {background-image: url(../images/album/voice.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide1 {background-image: url(../images/album/viva.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide2 {background-image: url(../images/album/flow.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide3 {background-image: url(../images/album/knockonmydoor.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide4 {background-image: url(../images/album/inspiration.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide5 {background-image: url(../images/album/circle.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide6 {background-image: url(../images/album/dancewholeday.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide7 {background-image: url(../images/album/lifegoeson.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide8 {background-image: url(../images/album/dice.jpg);}
+main #album .album_wrap #album_slide .swiper-wrapper .slide9 {background-image: url(../images/album/voice.jpg);}
 main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a {
     display: inline-block;
     width: 100%;
