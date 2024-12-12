@@ -164,6 +164,7 @@ main #album .album_wrap #album_slide .swiper-wrapper .swiper-slide a .tit span {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: calc(180px - 20px);
     line-height: 1.25rem;
 }
 
